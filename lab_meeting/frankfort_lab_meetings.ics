@@ -1,0 +1,92 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: \nJournal Club: Justin\nTechnique of the Week: \nFood (no nuts): Ben\n\nNotes: 
+DTEND:20250908T170000Z
+LOCATION:4th floor conference room
+DTSTART:20250908T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:d8c2f886-c54f-4259-a431-cb76f18bb115@d8c2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: Joy\nJournal Club: \nTechnique of the Week: \nFood (no nuts): Solomon\n\nNotes: Joy's practice SMART talk
+DTEND:20250721T170000Z
+LOCATION:4th floor conference room
+DTSTART:20250721T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:cb7fb92b-8e43-4411-a2b4-64e30ece9355@cb7f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: Justin\nJournal Club: \nTechnique of the Week: \nFood (no nuts): Guofu\n\nNotes: 
+DTEND:20250922T170000Z
+LOCATION:4th floor conference room
+DTSTART:20250922T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:03b9ee75-fc46-4235-92aa-cc5ad8351b29@03b9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: Jordan\nJournal Club: \nTechnique of the Week: \nFood (no nuts): Justin\n\nNotes: 
+DTEND:20250929T170000Z
+LOCATION:4th floor conference room
+DTSTART:20250929T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:8500ea60-4098-44d9-b3c3-a9f6b67d182e@8500.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: Solomon\nJournal Club: \nTechnique of the Week: \nFood (no nuts): Daniel\n\nNotes: 
+DTEND:20250818T170000Z
+LOCATION:4th floor conference room
+DTSTART:20250818T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:948b9937-448e-4c4f-85e2-b17c1ad91147@948b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: Guofu\nJournal Club: \nTechnique of the Week: \nFood (no nuts): Justin\n\nNotes: 
+DTEND:20250915T170000Z
+LOCATION:4th floor conference room
+DTSTART:20250915T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:bcc0165d-0d31-45e0-8bbd-6d8708260962@bcc0.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: Ben\nJournal Club: \nTechnique of the Week: \nFood (no nuts): Solomon\n\nNotes: 
+DTEND:20250825T170000Z
+LOCATION:4th floor conference room
+DTSTART:20250825T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:dac6fa3a-d1b8-4f24-bc10-e0f12f3790fd@dac6.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: Guofu\nJournal Club: \nTechnique of the Week: \nFood (no nuts): \n\nNotes: 
+DTEND:20250630T170000Z
+LOCATION:4th floor conference room
+DTSTART:20250630T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:16013096-0a8f-49f6-ab5f-a9b7dfb7c40e@1601.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: Josh\nJournal Club: \nTechnique of the Week: \nFood (no nuts): Guofu\n\nNotes: 
+DTEND:20250707T170000Z
+LOCATION:4th floor conference room
+DTSTART:20250707T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:b541bbfa-9e67-46aa-a38d-e00f6f5ba9e5@b541.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: \nJournal Club: Solomon\nTechnique of the Week: \nFood (no nuts): \n\nNotes: Bastille Day!  Celebrate democracy with a lab lunch :D.  Round table
+DTEND:20250714T170000Z
+LOCATION:4th floor conference room
+DTSTART:20250714T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:0afc6273-af00-45c2-8b7a-c04d5e3bf74f@0afc.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: Daniel\nJournal Club: \nTechnique of the Week: \nFood (no nuts): Joy\n\nNotes: Make lab meeting shorter
+DTEND:20250728T170000Z
+LOCATION:4th floor conference room
+DTSTART:20250728T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:395d0f38-36b3-41c9-8990-a9f75c73f98f@395d.org
+END:VEVENT
+END:VCALENDAR
