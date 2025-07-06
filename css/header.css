@@ -2,13 +2,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding: 8px 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 
-.fg-lab-logo {
+.fg-lab-banner {
     height: 90px;
     width: auto;
 }
@@ -18,15 +23,113 @@
 }
 
 .header-button {
+    position: relative;
     color: white;
     text-decoration: none;
-    background-color: rgb(0, 73, 133);
-    padding: 6px 15px;
-    margin-left: 10px;
+    padding: 6px 6px;
+    margin-left: 22px;
     border-radius: 5px;
+    transition: color 0.3s ease;
+}
+
+.header-button::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #2bff87;
+    transform: scaleX(0);
+    transform-origin: right; /* default: animate from left to right */
+    transition: transform 0.3s ease, transform-origin 0s;
 }
 
 .header-button:hover {
-    background-color: rgb(0, 133, 82);
-    transition: background-color 2ms;
+    color: #2bff87;
+}
+
+.header-button:hover::after {
+    transform: scaleX(1);
+    transform-origin: left; /* keep origin fixed for consistent direction */
+}
+
+
+
+/* Hamburger mobile menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 110;
+}
+
+.hamburger span {
+    height: 3px;
+    width: 30px;
+    background: white;
+    margin: 4px 0;
+    transition: 0.3s;
+}
+
+/* Hamburger "X" transformation */
+.hamburger.open span:nth-child(1) {
+    transform: rotate(45deg) translate(7px, 7px);
+}
+.hamburger.open span:nth-child(2) {
+    opacity: 0;
+}
+.hamburger.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(8px, -8px);
+}
+
+/* Slide-in menu */
+.mobile-menu {
+    position: fixed;
+    top: 84px; /* same as header height */
+    right: -100%;
+    width: 100%;
+    height: calc(100vh - 10px);
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: right 0.3s ease;
+    z-index: 120;
+}
+
+.mobile-menu a {
+    margin: 15px 0;
+    font-size: 24px;
+}
+
+/* Open state */
+.mobile-menu.open {
+    right: 0;
+}
+
+
+
+/* Responsive rules */
+@media (max-width: 1024px) {
+    .header {
+        padding: 8px 2%;
+    }
+    .fg-lab-logo {
+        height: 70px;
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-button-div {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
 }

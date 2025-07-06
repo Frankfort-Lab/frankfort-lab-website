@@ -3,28 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="img/FG Lab Logo.svg">
+
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/research.css">
+    <link rel="stylesheet" href="css/publications.css">
+    <link rel="stylesheet" href="css/team.css">
+    <link rel="stylesheet" href="css/lab-meeting.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/index-home.css">
+
     <title>Frankfort Glaucoma Lab</title>
 </head>
 <body>
     
-    <header class="header">
-        <img src="img/FG Lab Logo.svg" alt="FG lab logo" class="fg-lab-logo">
-        <div class="header-button-div">
-            <!--<a href="#" class="header-button">Home</a>-->
-            <a href="#" class="header-button">Research</a>
-            <a href="#" class="header-button">Publications</a>
-            <a href="#" class="header-button">Team</a>
-            <a href="#" class="header-button">Lab News</a>
-            <a href="#" class="header-button">Lab Meeting</a>
-            <a href="#" class="header-button">Contact Us</a>
-        </div>
-    </header>
 
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+    <script src="js/generateHeader.js"></script>
+    <script src="js/mobileHeader.js"></script>
+
+
+
+    <!-- Banner -->
     <section class="banner">
-        
+        <img src="img/flatmount.jpg" alt="flatmount" class="flatmount">
     </section>
+
+
+
+    <!-- Welcome Message -->
+    <section>
+        <div class="welcome-div">
+            <h1>Welcome to the Frankfort Lab!</h1>
+            <h2>Baylor College of Medicine</h2>
+            <h3>We aim to understand glaucoma progression, improve screening, and use genomic and neuroscience tools for prevention</h3>
+            <div class="contact-button-div">
+                <a href="contact.html" class="contact-button">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Main Lab Interests -->
+    <section class="major-interests-section">
+
+        <div class="interests-title-div">
+            <h1 class="autoShow-center interests-title">Research Interests</h1>
+        </div>
+
+        <div class="major-interests-container">
+
+            <div class="major-interests autoShow">
+                <h1>Serotonin Neuroprotection</h1>
+                <div class="mi-desc-div">
+                    <p>We study serotonin signaling in the retina to determine how it confers protective effects against glaucoma progression</p>
+                    <img src="img/serotonin.svg" alt="serotonin">
+                </div>
+            </div>
+
+            <div class="major-interests autoShow">
+                <h1>Retinal Vasculature</h1>
+                <div class="mi-desc-div">
+                    <p>We investigate how retinal ganglion cell function relates to local blood supply to uncover the role of the vasculature in glaucoma</p>
+                    <img src="img/vasculature.svg" alt="vasculature">
+                </div>
+            </div>
+
+            <div class="major-interests autoShow">
+                <h1>Early Detection</h1>
+                <div class="mi-desc-div">
+                    <p>We develop new tools to monitor glaucoma before it presents as vision loss to better identify patients in need of treatment</p>
+                    <img src="img/early_detection.svg" alt="early detection">
+                </div>
+            </div>
+
+            <div class="major-interests autoShow">
+                <h1>Single Cell Genomics</h1>
+                <div class="mi-desc-div">
+                    <p>We study the genetic drivers for resilient cell types and apply these patterns to vulurable cell types to prevent cell death</p>
+                    <img src="img/scRNA-seq.svg" alt="single-cell RNA-seq">
+                </div>
+            </div>
+        </div>
+
+        <div class="interests-title-div">
+            <h1 class="autoShow-center interests-title learn-more-link"><a href="research.html">Learn More</a></h1>
+        </div>
+
+    </section>
+
+
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+    <script src="js/generateFooter.js"></script>
+    <script src="js/footerYear.js"></script>
+
 
 </body>
 </html>

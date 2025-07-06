@@ -1,0 +1,44 @@
+.lab-meeting-section {
+    padding-top: 100px;
+}
+
+.lab-meeting-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.lab-meeting-desc {
+    /* max-width: 50%; */
+    margin-bottom: 25px;
+}
+
+.lab-meeting-calendar {
+    display: flex;
+    justify-content: center;
+}
+
+.dataframe {
+    color: white;
+    white-space: pre-line;
+    margin: 0;
+    background-color: rgb(13, 46, 44);
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+th, td {
+    padding: 0.5rem 1rem;
+}
+
+th {
+    background-color: rgb(0, 29, 26);
+    font-size: 20px;
+    border-bottom: 1px rgb(160, 160, 160) solid;
+}
+
+tr:nth-of-type(1n) {
+    border-bottom: 1px rgb(87, 87, 87) solid;
+}

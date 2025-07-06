@@ -1,0 +1,86 @@
+/* Footer container */
+.footer {
+    background-color: #111111;
+    color: white;
+    padding: 30px 5% 10px;
+    margin-top: auto;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-media-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+    transition: color 0.3s ease;
+}
+
+.social-media-div a {
+    transition: color 0.3s ease;
+}
+
+.social-media-div:hover img {
+    filter: brightness(0) saturate(100%) invert(70%) sepia(92%) saturate(734%) hue-rotate(84deg) brightness(103%) contrast(101%);
+}
+
+.social-media-div:hover a {
+    color: #2bff87;
+}
+
+.social-media-div img {
+    height: 25px;
+    margin-right: 10px;
+    transition: filter 0.3s ease;
+}
+
+.school-logo {
+    width: 150px;
+    height: auto;
+}
+
+/* Bottom copyright */
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+
+
+/* Mobile compatibility */ 
+
+@media (max-width: 1024px) {
+    .footer-content { 
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .bcm-footer {
+        align-items: center;
+    }
+}
