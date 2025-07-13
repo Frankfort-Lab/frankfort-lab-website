@@ -21,7 +21,7 @@ section {
     padding-top: 20px;
 }
 
-h1, h2, h3, p, a, div {
+h1, h2, h3, p, a, div, li, ol {
     color: white;
 }
 
@@ -38,6 +38,10 @@ h1, h2, h3, p, a, div {
     section {
         margin-right: 2%;
         margin-left: 2%;
+    }
+
+    .page-titles {
+        font-size: 36px;
     }
 }
 

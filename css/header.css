@@ -86,7 +86,7 @@
 /* Slide-in menu */
 .mobile-menu {
     position: fixed;
-    top: 84px; /* same as header height */
+    top: 100px; /* same as header height */
     right: -100%;
     width: 100%;
     height: calc(100vh - 10px);
@@ -96,7 +96,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     transition: right 0.3s ease;
     z-index: 120;
 }

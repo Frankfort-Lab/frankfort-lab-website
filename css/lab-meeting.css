@@ -1,22 +1,30 @@
 .lab-meeting-section {
     padding-top: 100px;
+    margin-bottom: 50px;
 }
 
 .lab-meeting-div {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 85%;
     margin-top: 25px;
 }
 
 .lab-meeting-desc {
-    /* max-width: 50%; */
-    margin-bottom: 25px;
+    margin-bottom: 40px;
+}
+
+.lab-meeting-desc a {
+    color: #2bff87;   
 }
 
 .lab-meeting-calendar {
     display: flex;
     justify-content: center;
+    max-width: 100%;
+    overflow-x: auto;
 }
 
 .dataframe {
@@ -34,11 +42,65 @@ th, td {
 }
 
 th {
-    background-color: rgb(0, 29, 26);
+    background-color: rgb(13, 46, 44);
     font-size: 20px;
     border-bottom: 1px rgb(160, 160, 160) solid;
 }
 
-tr:nth-of-type(1n) {
+tr {
     border-bottom: 1px rgb(87, 87, 87) solid;
+}
+
+tr:nth-of-type(2n) {
+    background-color: rgb(8, 51, 33);
+}
+
+
+
+/* Mobile responsiveness */
+@media (max-width: 1024px) {
+    
+    .lab-meeting-section {
+        margin-top: 10px;
+    }
+
+    .lab-meeting-div {
+        margin-top: 20px;
+        width: 95%;
+    }
+
+    th {
+        display: none;
+    }
+
+    td {
+        display: grid;
+        grid-template-columns: 15ch auto;
+    }
+
+    td:nth-of-type(1)::before {
+        content: "Date: ";
+        font-weight: bold;
+    }
+
+    td:nth-of-type(2)::before {
+        content: "Lab Meeting: ";
+        font-weight: bold;
+    }
+
+    td:nth-of-type(3)::before {
+        content: "Journal Club: ";
+        font-weight: bold;
+    }
+
+    td:nth-of-type(4)::before {
+        content: "Food: ";
+        font-weight: bold;
+    }
+
+    td:nth-of-type(5)::before {
+        content: "Notes: ";
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
 }

@@ -1,0 +1,139 @@
+.lab-image-section {
+    margin-top: 120px;
+}
+
+.lab-image-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.lab-image {
+    width: 60%;
+    margin-top: 15px;
+}
+
+.lab-members-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.current-prev-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.curr-prev-button {
+    cursor: pointer;
+    background-color: lightgrey;
+    color: black;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.curr-prev-button:hover {
+    background-color: #2bff87;
+}
+
+/* Active buttons */
+.curr-prev-button.active {
+    background-color: #2bff87;
+}
+
+.lab-members-div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    margin-top: 50px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.lab-member {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    column-gap: 30px;
+}
+
+.member-pic {
+    max-width: 500px;
+}
+
+.member-desc-div h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.member-desc-div p {
+    line-height: 1.4;
+    color: rgb(211, 211, 211);
+    margin-bottom: 15px;
+}
+
+.member-desc-div p span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+/* Mobile compatibility */
+
+@media (max-width: 1024px) {
+    .lab-image-section {
+        margin-top: 105px;
+    }
+
+    .lab-image {
+        width: 100%;
+    }
+
+    .current-prev-container {
+        display: block;
+        column-gap: 10px;
+    }
+
+    .curr-prev-button {
+        font-size: 16px;
+    }
+
+    .lab-members-section {
+        margin-top: 20px;
+    }
+
+    .lab-members-div {
+        margin-top: 40px;
+    }
+
+    .lab-member {
+        flex-direction: column;
+    }
+
+    .member {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .member-pic {
+        max-width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .lab-members-div {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+
