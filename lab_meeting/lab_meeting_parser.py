@@ -10,7 +10,7 @@ def df_import():
     """
     Function to import the lab calendar dataframe and return it
     """
-    df = pd.read_excel("lab_meeting_calendar.xlsx", sheet_name="2025")
+    df = pd.read_excel("lab_meeting_calendar.xlsx", sheet_name="2026")
     #df = df[df["Cancelled"]==False]  #filtering for lab meetings that are not cancelled
     df = df.fillna("")
     return(df)
@@ -39,10 +39,9 @@ def cal_csv():
         # Event descriptions
         lab_meeting = row["Lab Meeting"]
         jc = row["Journal Club"]
-        totw = row["Technique of the Week"]
         food = row["Food (no nuts)"]
         notes = row["Notes"]
-        desc = f"Lab Meeting: {lab_meeting}\nJournal Club: {jc}\nTechnique of the Week: {totw}\nFood (no nuts): {food}\n\nNotes: {notes}"
+        desc = f"Lab Meeting: {lab_meeting}\nJournal Club: {jc}\nFood (no nuts): {food}\n\nNotes: {notes}"
         #print(desc)
         
         # Adding items to the dictionary
