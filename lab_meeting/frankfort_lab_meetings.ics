@@ -2,44 +2,20 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Lab Meeting: Salim Khondker\nJournal Club: Soumi Mitra\nFood (no nuts): \n\nNotes: 
-DTEND:20260302T180000Z
+DESCRIPTION:Lab Meeting: no lab meeting\nJournal Club: \nFood (no nuts): \n\nNotes: no lab meeting
+DTEND:20260209T180000Z
 LOCATION:4th floor conference room
-DTSTART:20260302T160000Z
+DTSTART:20260209T160000Z
 SUMMARY:Frankfort Lab Meeting
-UID:04ca077b-77b3-4c65-a3fb-ba6cc3e25564@04ca.org
+UID:250a35f6-6190-4297-8b56-1d32808ae6f7@250a.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Lab Meeting: no lab meeting\nJournal Club: \nFood (no nuts): \n\nNotes: Ben out of town
-DTEND:20260406T170000Z
+DESCRIPTION:Lab Meeting: \nJournal Club: \nFood (no nuts): \n\nNotes: 
+DTEND:20260608T170000Z
 LOCATION:4th floor conference room
-DTSTART:20260406T150000Z
+DTSTART:20260608T150000Z
 SUMMARY:Frankfort Lab Meeting
-UID:dab86994-8536-4681-97a7-7b2643f24b2a@dab8.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lab Meeting: Giselle Gonzalez\nJournal Club: \nFood (no nuts): \n\nNotes: 
-DTEND:20260420T170000Z
-LOCATION:4th floor conference room
-DTSTART:20260420T150000Z
-SUMMARY:Frankfort Lab Meeting
-UID:c85ace24-4b15-4306-997e-0dfbebfa1c9f@c85a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lab Meeting: Kevin Wu\nJournal Club: \nFood (no nuts): \n\nNotes: 
-DTEND:20260413T170000Z
-LOCATION:4th floor conference room
-DTSTART:20260413T150000Z
-SUMMARY:Frankfort Lab Meeting
-UID:7f665649-3cfe-4561-ab58-362420ac3da9@7f66.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lab Meeting: Joy Kim\nJournal Club: \nFood (no nuts): \n\nNotes: 
-DTEND:20260330T170000Z
-LOCATION:4th floor conference room
-DTSTART:20260330T150000Z
-SUMMARY:Frankfort Lab Meeting
-UID:a6d20305-5887-47b1-9d31-4672be733da9@a6d2.org
+UID:7f50ae53-3292-473e-98f1-6f055464ab81@7f50.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Lab Meeting: lab planning\nJournal Club: \nFood (no nuts): \n\nNotes: Lab Planning 
@@ -47,15 +23,15 @@ DTEND:20260112T180000Z
 LOCATION:4th floor conference room
 DTSTART:20260112T160000Z
 SUMMARY:Frankfort Lab Meeting
-UID:47c8817a-2c2c-4214-a36f-5e111ce2887a@47c8.org
+UID:211e1862-a3b0-4418-bd0d-f9e3299c2bc7@211e.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Lab Meeting: Guofu Shen\nJournal Club: Daniel Brock (pilot)\nFood (no nuts): \n\nNotes: 
-DTEND:20260202T180000Z
+DESCRIPTION:Lab Meeting: Joy Kim\nJournal Club: \nFood (no nuts): \n\nNotes: 
+DTEND:20260330T170000Z
 LOCATION:4th floor conference room
-DTSTART:20260202T160000Z
+DTSTART:20260330T150000Z
 SUMMARY:Frankfort Lab Meeting
-UID:b3564579-a7f6-4191-b354-ff81d1ef1230@b356.org
+UID:12e1adc7-8d48-422b-9d18-5aa68dc61557@12e1.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Lab Meeting: no lab meeting\nJournal Club: \nFood (no nuts): \n\nNotes: MLK Day Volunteering 
@@ -63,63 +39,15 @@ DTEND:20260119T180000Z
 LOCATION:4th floor conference room
 DTSTART:20260119T160000Z
 SUMMARY:Frankfort Lab Meeting
-UID:f9c88c6c-4fbc-456c-b022-987f51b502d5@f9c8.org
+UID:88b5ca69-438f-494d-aa61-d49057978afc@88b5.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Lab Meeting: Justin Ma\nJournal Club: \nFood (no nuts): \n\nNotes: lab farewell party for Justin
-DTEND:20260126T180000Z
+DESCRIPTION:Lab Meeting: \nJournal Club: \nFood (no nuts): \n\nNotes: 
+DTEND:20260727T170000Z
 LOCATION:4th floor conference room
-DTSTART:20260126T160000Z
+DTSTART:20260727T150000Z
 SUMMARY:Frankfort Lab Meeting
-UID:1410e58a-d4af-487a-a8d6-a84cbc137080@1410.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lab Meeting: \nJournal Club: \nFood (no nuts): \n\nNotes: Rice finals
-DTEND:20260427T170000Z
-LOCATION:4th floor conference room
-DTSTART:20260427T150000Z
-SUMMARY:Frankfort Lab Meeting
-UID:7df343d8-a410-4e27-bdf3-97ac2e03631d@7df3.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lab Meeting: Daniel Brock\nJournal Club: \nFood (no nuts): \n\nNotes: spring break for Rice
-DTEND:20260316T170000Z
-LOCATION:4th floor conference room
-DTSTART:20260316T150000Z
-SUMMARY:Frankfort Lab Meeting
-UID:9d38c97c-01a1-4ed3-aca4-59162f0ce3ea@9d38.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lab Meeting: Soumi Mitra\nJournal Club: Guofu Shen\nFood (no nuts): \n\nNotes: 
-DTEND:20260309T170000Z
-LOCATION:4th floor conference room
-DTSTART:20260309T150000Z
-SUMMARY:Frankfort Lab Meeting
-UID:2f8de8cf-8f38-4fb6-9c36-b899f7922ae2@2f8d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lab Meeting: no lab meeting\nJournal Club: \nFood (no nuts): \n\nNotes: no lab meeting
-DTEND:20260209T180000Z
-LOCATION:4th floor conference room
-DTSTART:20260209T160000Z
-SUMMARY:Frankfort Lab Meeting
-UID:d37250f6-3348-4f72-a2f8-6214de797c77@d372.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lab Meeting: Med Student Day\nJournal Club: \nFood (no nuts): \n\nNotes: Reagan\, Ritu\, Miles\, Molly\, Grace
-DTEND:20260323T170000Z
-LOCATION:4th floor conference room
-DTSTART:20260323T150000Z
-SUMMARY:Frankfort Lab Meeting
-UID:248ca5ab-31bb-44b8-9387-01ec60ed9393@248c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lab Meeting: Chantel George\nJournal Club: Salim Khondker\nFood (no nuts): \n\nNotes: Lab vision / Frankfort lab retreat
-DTEND:20260223T180000Z
-LOCATION:4th floor conference room
-DTSTART:20260223T160000Z
-SUMMARY:Frankfort Lab Meeting
-UID:92813d44-e587-4336-a93e-5eb82a18c2cf@9281.org
+UID:850cef03-d9db-403c-aaf5-5945572025dd@850c.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Lab Meeting: Solomon Gibson\nJournal Club: Chantel George\nFood (no nuts): \n\nNotes: 
@@ -127,6 +55,182 @@ DTEND:20260216T180000Z
 LOCATION:4th floor conference room
 DTSTART:20260216T160000Z
 SUMMARY:Frankfort Lab Meeting
-UID:d23e9d15-3ad7-4a21-be02-206c10c1e360@d23e.org
+UID:4d2a11da-f3c8-4549-bd17-ad456e02cb3f@4d2a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: \nJournal Club: \nFood (no nuts): \n\nNotes: 
+DTEND:20260629T170000Z
+LOCATION:4th floor conference room
+DTSTART:20260629T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:87e24847-d40e-4e9c-abcf-aac2a25a0252@87e2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: \nJournal Club: \nFood (no nuts): \n\nNotes: 
+DTEND:20260615T170000Z
+LOCATION:4th floor conference room
+DTSTART:20260615T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:04296bac-4abe-4a5b-ac02-b25926a184fb@0429.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: \nJournal Club: \nFood (no nuts): \n\nNotes: 
+DTEND:20260525T170000Z
+LOCATION:4th floor conference room
+DTSTART:20260525T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:d7e5ae4b-397f-46ad-b589-d1f91e1b1d44@d7e5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: \nJournal Club: \nFood (no nuts): \n\nNotes: 
+DTEND:20260713T170000Z
+LOCATION:4th floor conference room
+DTSTART:20260713T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:98f0219b-8272-4c50-9e16-f1c11634322b@98f0.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: Soumi Mitra\nJournal Club: Guofu Shen\nFood (no nuts): \n\nNotes: 
+DTEND:20260309T170000Z
+LOCATION:4th floor conference room
+DTSTART:20260309T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:1e60e8bf-8cb1-475e-805b-1ccdff80fbd1@1e60.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: Salim Khondker\nJournal Club: Soumi Mitra\nFood (no nuts): \n\nNotes: 
+DTEND:20260302T180000Z
+LOCATION:4th floor conference room
+DTSTART:20260302T160000Z
+SUMMARY:Frankfort Lab Meeting
+UID:a201140c-a317-486b-8042-695842c59adc@a201.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: Daniel Brock\nJournal Club: \nFood (no nuts): \n\nNotes: spring break for Rice
+DTEND:20260316T170000Z
+LOCATION:4th floor conference room
+DTSTART:20260316T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:466a623f-685d-4cc9-98d9-35576aa937e9@466a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: \nJournal Club: \nFood (no nuts): \n\nNotes: 
+DTEND:20260720T170000Z
+LOCATION:4th floor conference room
+DTSTART:20260720T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:3ae6d515-a37b-451b-8c02-1dd6cca7fc4e@3ae6.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: \nJournal Club: \nFood (no nuts): \n\nNotes: No Meeting - ARVO
+DTEND:20260504T170000Z
+LOCATION:4th floor conference room
+DTSTART:20260504T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:d4ae9a94-fad7-4857-b198-5f50d17a34aa@d4ae.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: Med Student Day\nJournal Club: \nFood (no nuts): \n\nNotes: Reagan\, Ritu\, Miles\, Molly\, Grace
+DTEND:20260323T170000Z
+LOCATION:4th floor conference room
+DTSTART:20260323T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:ab4612ad-58d9-46c7-99b4-b8b352b9edba@ab46.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: \nJournal Club: \nFood (no nuts): \n\nNotes: 
+DTEND:20260706T170000Z
+LOCATION:4th floor conference room
+DTSTART:20260706T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:19dbfa50-d34a-4e36-b3ff-421ba6fbabca@19db.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: ARVO Poster review - abstracts\nJournal Club: \nFood (no nuts): \n\nNotes: Change time to 9:30
+DTEND:20260427T170000Z
+LOCATION:4th floor conference room
+DTSTART:20260427T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:c20f1ef2-fe30-4b41-b18e-94e651c2a3c7@c20f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: Justin Ma\nJournal Club: \nFood (no nuts): \n\nNotes: lab farewell party for Justin
+DTEND:20260126T180000Z
+LOCATION:4th floor conference room
+DTSTART:20260126T160000Z
+SUMMARY:Frankfort Lab Meeting
+UID:7bedc9c8-0ec7-43fc-a9a3-6252434c4c16@7bed.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: ARVO recap\nJournal Club: \nFood (no nuts): \n\nNotes: 
+DTEND:20260518T170000Z
+LOCATION:4th floor conference room
+DTSTART:20260518T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:7a185f0c-335e-43d7-9869-0685bed528f0@7a18.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: Guofu Shen\nJournal Club: Daniel Brock (pilot)\nFood (no nuts): \n\nNotes: 
+DTEND:20260202T180000Z
+LOCATION:4th floor conference room
+DTSTART:20260202T160000Z
+SUMMARY:Frankfort Lab Meeting
+UID:581b994f-66ae-44ed-98e5-a509a3688ffa@581b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: Kevin Wu & Giselle Gonzalez\nJournal Club: \nFood (no nuts): \n\nNotes: 
+DTEND:20260420T170000Z
+LOCATION:4th floor conference room
+DTSTART:20260420T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:d9795719-7fae-4360-a854-ea8848cb36e0@d979.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: \nJournal Club: \nFood (no nuts): \n\nNotes: 
+DTEND:20260622T170000Z
+LOCATION:4th floor conference room
+DTSTART:20260622T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:641efd83-33a1-4279-9412-bc468f9f988e@641e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: no lab meeting\nJournal Club: \nFood (no nuts): \n\nNotes: Ben out of town
+DTEND:20260406T170000Z
+LOCATION:4th floor conference room
+DTSTART:20260406T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:5fe47c9b-56df-47a4-8080-57ce5d329e2e@5fe4.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: \nJournal Club: \nFood (no nuts): \n\nNotes: Ben out of town
+DTEND:20260511T170000Z
+LOCATION:4th floor conference room
+DTSTART:20260511T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:1e01fd97-1319-40ba-ba81-0586f78f86db@1e01.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: \nJournal Club: \nFood (no nuts): \n\nNotes: 
+DTEND:20260413T170000Z
+LOCATION:4th floor conference room
+DTSTART:20260413T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:0f00ba10-c9da-44c2-a2e6-588bc4a8bfc1@0f00.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: Chantel George\nJournal Club: Salim Khondker\nFood (no nuts): \n\nNotes: Lab vision / Frankfort lab retreat
+DTEND:20260223T180000Z
+LOCATION:4th floor conference room
+DTSTART:20260223T160000Z
+SUMMARY:Frankfort Lab Meeting
+UID:5bc78025-7c83-4730-a29e-0c0819cf105f@5bc7.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lab Meeting: \nJournal Club: \nFood (no nuts): \n\nNotes: 
+DTEND:20260601T170000Z
+LOCATION:4th floor conference room
+DTSTART:20260601T150000Z
+SUMMARY:Frankfort Lab Meeting
+UID:1e6d1a28-ccc4-45ca-b0f7-dcdcb451c9d1@1e6d.org
 END:VEVENT
 END:VCALENDAR
